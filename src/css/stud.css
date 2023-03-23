@@ -20,6 +20,8 @@
 .stud-container video {
     margin: 0 40px;
     border-radius: 16px;
+    width: 400px;
+    height: auto;
 }
 
 .stud-container img {

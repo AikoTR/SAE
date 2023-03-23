@@ -62,6 +62,10 @@
     transition: 0.3s ease;
 }
 
+.principe .card img {
+    height: 200px;
+}
+
 .principe .card:hover {
     transition: 0.3s ease;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

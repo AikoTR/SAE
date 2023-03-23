@@ -8,6 +8,18 @@
     font-weight: 400;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f9f9f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(33,37,41);
+}
+
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.55);;
@@ -15,6 +27,12 @@ a {
 
 .navbar-link .nav-link {
     margin-right: 40px;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
 }
 
 .footer {
