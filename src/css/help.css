@@ -1,0 +1,47 @@
+.help {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px;
+    height: 100vh;
+}
+
+.help h1 {
+    margin: 0 0 20px 0;
+}
+
+.help-content {
+    display: flex;
+}
+
+.help-content img {
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 20px;
+}
+
+.hulule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hulule img {
+    width: 60px;
+}
+
+.hulule a {
+    color: #000;
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: 0.3s ease;
+}
+
+.hulule a:hover {
+    color: #2125;
+    transition: 0.3s ease;
+}

@@ -1,0 +1,157 @@
+/* Header */
+
+.header {
+    background: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.text-box {
+    width: 90%;
+    color: #E6E6E6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 4px;
+    font-size: 16px;
+}
+
+.text-box .btn {
+    margin-top: 10px;
+}
+
+/* Principe */
+
+.principe-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.principe {
+    width: 90%;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(33, 47, 61, 0.1);
+}
+
+.principe h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.principe .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.principe .card {
+    transition: 0.3s ease;
+}
+
+.principe .card:hover {
+    transition: 0.3s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* About */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-container h1 {
+    text-align: center;
+}
+
+.about-container .content-container {
+    width: 90%;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(33, 47, 61, 0.1);
+}
+
+.about-container .text {
+    width: 80%;
+    margin-left: 20px;
+    text-indent: 40px;
+}
+
+.about-container .images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.images .image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular--landscape img {
+    min-width: 100px;
+    height: auto;
+}
+
+/* Project */
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-container .content-container {
+    width: 90%;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(33, 47, 61, 0.1);
+}
+
+.project-container h1 {
+    text-align: center;
+}
+
+.project-container .project-content {
+    padding: 10px 0;
+    display: flex;
+}
+
+.project-container .project-content p {
+    width: 50%; 
+    text-indent: 40px;
+}
+
+.project-container .project-content img {
+    margin-left: 100px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
